@@ -1,0 +1,24 @@
+Package: farsdata
+Type: Package
+Title: FARS Data Tools
+Version: 0.1.0
+Authors@R: person('Tyler', 'Byers', email = 'tybyers@gmail.com', role = c('aut', 'cre'))
+Description: This R package is submitted as the Week 4 final assignment for the 
+    "Building R Packages" course on Coursera, as part of the Johns Hopkins 
+    University "Mastering Software Development in R" specialization.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
+Imports:
+    dplyr (>= 0.5.0),
+    mapdata (>= 2.2-6),
+    maps (>= 3.1.1), 
+    magrittr (>= 1.5),
+    readr (>= 1.0.0), 
+    tidyr (>= 0.6.0),
+    tibble (>= 1.2)
+Suggests: knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
